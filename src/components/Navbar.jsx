@@ -3,7 +3,7 @@ import { assets } from "../assets/assets"
 const Navbar=()=>{
     return(
         <>
-        <div className="w-full bg-black flex justify-between items-center font-semibold">
+        <div className="h-[12%] static px-4 bg-black flex justify-between items-center font-semibold">
         
         {/* flex items-center gap-2 */}
             <div className="flex flex-wrap items-center gap-2 absolute top-5 left-50">
