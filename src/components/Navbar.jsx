@@ -17,7 +17,8 @@ const Navbar=()=>{
                 <p className="bg-blue-500 text-black w-7 h-7 rounded-full flex items-center justify-center">A</p>
             </div>
 
-            <div className="flex items-center gap-2 mt-4 absolute top-10 left-1/6">
+            <div className="flex items-center gap-2 pl-8 mt-4 absolute top-10 left-1/6 cursor pointer">
+            {/* flex item-center gap-3 pl-8 cursor-pointer */}
             <p className="bg-white text-black px-4 py-1 rounded-2xl curson-pointer">All</p>
             {/* bg-black change this */}
             <p className="bg-black text-white px-4 py-1 rounded-2xl cursor-pointer">Music</p>
